@@ -1,0 +1,119 @@
+{
+  "train": {
+    "by_name": {
+      "n_groups": 7740797,
+      "singleton_groups": 6140003,
+      "group_mean": 1.618,
+      "group_p50": 1,
+      "group_p90": 3,
+      "group_p99": 9,
+      "group_max": 1072,
+      "n_groups_gt_10": 60609,
+      "n_groups_gt_100": 2102,
+      "n_groups_gt_1000": 3,
+      "max_block": "physical therapy"
+    },
+    "by_addr": {
+      "n_groups": 10490182,
+      "singleton_groups": 9213615,
+      "group_mean": 1.194,
+      "group_p50": 1,
+      "group_p90": 2,
+      "group_p99": 3,
+      "group_max": 222089,
+      "n_groups_gt_10": 1826,
+      "n_groups_gt_100": 2,
+      "n_groups_gt_1000": 2,
+      "max_block": ""
+    },
+    "by_name_India": {
+      "n_groups": 3019100,
+      "singleton_groups": 2398699,
+      "group_mean": 1.662,
+      "group_p50": 1,
+      "group_p90": 3,
+      "group_p99": 11,
+      "group_max": 295,
+      "n_groups_gt_10": 30860,
+      "n_groups_gt_100": 64,
+      "n_groups_gt_1000": 0,
+      "max_block": "mumbai india pvt ltd"
+    },
+    "by_addr_India": {
+      "n_groups": 4282715,
+      "singleton_groups": 3824173,
+      "group_mean": 1.171,
+      "group_p50": 1,
+      "group_p90": 2,
+      "group_p99": 3,
+      "group_max": 122794,
+      "n_groups_gt_10": 675,
+      "n_groups_gt_100": 1,
+      "n_groups_gt_1000": 1,
+      "max_block": ""
+    },
+    "by_name_US": {
+      "n_groups": 4721697,
+      "singleton_groups": 3741304,
+      "group_mean": 1.591,
+      "group_p50": 1,
+      "group_p90": 2,
+      "group_p99": 8,
+      "group_max": 1072,
+      "n_groups_gt_10": 29749,
+      "n_groups_gt_100": 2038,
+      "n_groups_gt_1000": 3,
+      "max_block": "physical therapy"
+    },
+    "by_addr_US": {
+      "n_groups": 6207467,
+      "singleton_groups": 5389442,
+      "group_mean": 1.21,
+      "group_p50": 1,
+      "group_p90": 2,
+      "group_p99": 3,
+      "group_max": 222089,
+      "n_groups_gt_10": 1151,
+      "n_groups_gt_100": 1,
+      "n_groups_gt_1000": 1,
+      "max_block": ""
+    },
+    "by_any_digit_token": {
+      "n_groups": 1143940,
+      "singleton_groups": 502609,
+      "group_mean": 14.19,
+      "group_p90": 10,
+      "group_p99": 164,
+      "group_max": 145133,
+      "max_block": "2nd"
+    }
+  },
+  "test": {
+    "by_name": {
+      "n_groups": 7642534,
+      "singleton_groups": 6262399,
+      "group_mean": 1.531,
+      "group_p50": 1,
+      "group_p90": 2,
+      "group_p99": 8,
+      "group_max": 652,
+      "n_groups_gt_10": 53501,
+      "n_groups_gt_100": 987,
+      "n_groups_gt_1000": 0,
+      "max_block": "cc"
+    },
+    "by_addr": {
+      "n_groups": 9741103,
+      "singleton_groups": 8447721,
+      "group_mean": 1.201,
+      "group_p50": 1,
+      "group_p90": 2,
+      "group_p99": 3,
+      "group_max": 112004,
+      "n_groups_gt_10": 1738,
+      "n_groups_gt_100": 13,
+      "n_groups_gt_1000": 3,
+      "max_block": ""
+    }
+  }
+}

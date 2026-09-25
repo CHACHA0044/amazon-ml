@@ -1,0 +1,130 @@
+{
+  "n_pos": 600000,
+  "name_strong": {
+    "n": 240359,
+    "rate": 0.4006
+  },
+  "addr_strong": {
+    "n": 499979,
+    "rate": 0.8333
+  },
+  "numeric_strong": {
+    "n": 396797,
+    "rate": 0.66133
+  },
+  "rare_strong": {
+    "n": 323265,
+    "rate": 0.53878
+  },
+  "name_and_addr_strong": {
+    "n": 197122,
+    "rate": 0.32854
+  },
+  "name_only_strong": {
+    "n": 43237,
+    "rate": 0.07206
+  },
+  "addr_only_strong": {
+    "n": 302857,
+    "rate": 0.50476
+  },
+  "neither_strong": {
+    "n": 56784,
+    "rate": 0.09464
+  },
+  "name_gate_recall": {
+    "0.4": {
+      "n": 485500,
+      "rate": 0.80917
+    },
+    "0.6": {
+      "n": 406957,
+      "rate": 0.67826
+    },
+    "0.8": {
+      "n": 240359,
+      "rate": 0.4006
+    },
+    "0.95": {
+      "n": 214238,
+      "rate": 0.35706
+    }
+  },
+  "addr_gate_recall": {
+    "0.2": {
+      "n": 560616,
+      "rate": 0.93436
+    },
+    "0.4": {
+      "n": 471661,
+      "rate": 0.7861
+    },
+    "0.6": {
+      "n": 319854,
+      "rate": 0.53309
+    },
+    "0.8": {
+      "n": 147231,
+      "rate": 0.24538
+    }
+  },
+  "num_overlap_recall": {
+    "1": {
+      "n": 396797,
+      "rate": 0.66133
+    },
+    "2": {
+      "n": 93705,
+      "rate": 0.15618
+    }
+  },
+  "name_char2_recall": {
+    "0.7": {
+      "n": 380821,
+      "rate": 0.6347
+    },
+    "0.9": {
+      "n": 211236,
+      "rate": 0.35206
+    }
+  },
+  "addr_char2_recall": {
+    "0.5": {
+      "n": 505258,
+      "rate": 0.8421
+    },
+    "0.8": {
+      "n": 247774,
+      "rate": 0.41296
+    }
+  },
+  "rescue_when_name_weak": {
+    "name_weak_n": 359641,
+    "name_weak_frac": 0.5994,
+    "addr_strong": 0.84211,
+    "numeric_strong": 0.67028,
+    "addr_char2_0_6": 0.76132,
+    "avg_addr_tok_jac": 0.61348
+  },
+  "rescue_when_addr_weak": {
+    "addr_weak_n": 100021,
+    "name_strong": 0.43228,
+    "avg_name_tok_jac": 0.69317
+  },
+  "auc_India": {
+    "name_tok_jac": 0.56829,
+    "addr_tok_jac": 0.9163,
+    "addr_char2": 0.89653,
+    "num_overlap": 0.80977,
+    "rare_shared": 0.6049,
+    "name_char2": 0.5793
+  },
+  "auc_US": {
+    "name_tok_jac": 0.71907,
+    "addr_tok_jac": 0.86926,
+    "addr_char2": 0.84986,
+    "num_overlap": 0.77306,
+    "rare_shared": 0.61091,
+    "name_char2": 0.74101
+  }
+}

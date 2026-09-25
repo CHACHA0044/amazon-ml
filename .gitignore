@@ -4,8 +4,48 @@ dataset/
 # Competition student-resource bundle (contains dataset copy)
 6ab10eb3b23ba_student_resource.zip
 
-# Private keys and credentials
+# Competition media (problem statement video, etc.)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Archives
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+
+# Private keys, credentials, and certificates - NEVER commit
 *.pem
+*.key
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+*.p8
+*.jks
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*.ppk
+
+# Credentials files
+.aws/
+credentials
+*.credentials
+.aws-credentials
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
 
 # Python
 __pycache__/
@@ -17,16 +57,49 @@ __pycache__/
 venv/
 env/
 
-# Environment / secrets
-.env
-.env.*
-
 # Logs
 *.log
 
 # OS noise
 .DS_Store
 Thumbs.db
+
+# Outputs and scratch
+output/
+outputs/
+*.parquet
+*.joblib
+*.pkl
+
+# Model binaries
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.safetensors
+*.ckpt
+
+# Notebooks scratch
+.ipynb_checkpoints/
+
+# Generated AWS experiment artifacts (contain live bucket/account values)
+experiments/*/s3_manifest.json
+experiments/*/latest_job.json
+experiments/*/submission_validation.json
+experiments/*/local_aws_config.json
+experiments/*/checkpoints/
+
+# Generated submission artifacts (large; keep MANIFEST.md only)
+submission/*.tsv
+submission/*.zip
+submissions/
+
+# Personal operating / reference files - local only
+instructions.md
+device-specs.md
+aws buiilder center guide.txt
+problem_statement.txt
 
 # IDE / editor
 .idea/

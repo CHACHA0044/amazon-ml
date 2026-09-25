@@ -1,0 +1,28 @@
+{
+  "n_pairs": 7638365,
+  "name_raw_eq": 0.04636,
+  "name_lower_eq": 0.107487,
+  "name_norm_eq": 0.257868,
+  "name_norm_suf_eq": 0.286461,
+  "addr_raw_eq": 0.022266,
+  "addr_lower_eq": 0.072435,
+  "addr_norm_eq": 0.082659,
+  "both_norm_eq": 0.017089,
+  "ntok_eq": 0.541141,
+  "atok_eq": 0.441131,
+  "country_eq": 1.0,
+  "addr_missing_any": 0.044122,
+  "addr_missing_both": 0.0,
+  "by_msrc": {
+    "S2": 3693619,
+    "S3": 3944746
+  },
+  "by_country": {
+    "India": 3059843,
+    "US": 4578522
+  },
+  "nlen_diff_mean": 3.8193312312255308,
+  "alen_diff_mean": 10.585588538908523,
+  "nlen_diff_p90": 11.0,
+  "alen_diff_p90": 30.0
+}

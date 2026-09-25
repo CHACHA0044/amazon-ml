@@ -1,0 +1,505 @@
+{
+  "audit_time": "2026-09-25T01:37:10",
+  "files": {
+    "train_source1": {
+      "label": "train_source1",
+      "size_bytes": 210069713,
+      "size_human": "200.3 MB",
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "row_count": 2206821,
+      "unique_ids": 2206821,
+      "dup_id_count": 0,
+      "unexpected_prefix": 0,
+      "prefix_dist": {
+        "S1-": 2206821
+      },
+      "null_counts": {},
+      "missing_pct": {},
+      "country_dist": {
+        "US": 1323633,
+        "India": 883188
+      },
+      "name_len_dist": {
+        "min": 3,
+        "max": 105,
+        "mean": 24.03,
+        "p25": 18,
+        "p50": 24,
+        "p75": 30,
+        "p95": 37
+      },
+      "addr_len_dist": {
+        "min": 11,
+        "max": 256,
+        "mean": 52.07,
+        "p25": 33,
+        "p50": 41,
+        "p75": 70,
+        "p95": 103
+      },
+      "name_tok_dist": {
+        "min": 1,
+        "max": 16,
+        "mean": 3.55,
+        "p25": 3,
+        "p50": 4,
+        "p75": 4,
+        "p95": 5
+      },
+      "addr_tok_dist": {
+        "min": 2,
+        "max": 43,
+        "mean": 8.03,
+        "p25": 5,
+        "p50": 7,
+        "p75": 10,
+        "p95": 15
+      },
+      "non_ascii_name_count": 0,
+      "non_ascii_name_pct": 0.0,
+      "non_ascii_addr_count": 554,
+      "non_ascii_addr_pct": 0.025,
+      "audit_sec": 26.2
+    },
+    "train_source2": {
+      "label": "train_source2",
+      "size_bytes": 489301488,
+      "size_human": "466.6 MB",
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "row_count": 5034616,
+      "unique_ids": 5034616,
+      "dup_id_count": 0,
+      "unexpected_prefix": 0,
+      "prefix_dist": {
+        "S2-": 5034616
+      },
+      "null_counts": {
+        "business_address": 168967
+      },
+      "missing_pct": {
+        "business_address": 3.356
+      },
+      "country_dist": {
+        "US": 3016817,
+        "India": 2017799
+      },
+      "name_len_dist": {
+        "min": 2,
+        "max": 104,
+        "mean": 25.1,
+        "p25": 19.0,
+        "p50": 25.0,
+        "p75": 31.0,
+        "p95": 40.0
+      },
+      "addr_len_dist": {
+        "min": 8,
+        "max": 249,
+        "mean": 47.83,
+        "p25": 31,
+        "p50": 37,
+        "p75": 63,
+        "p95": 97.0
+      },
+      "name_tok_dist": {
+        "min": 1,
+        "max": 15,
+        "mean": 3.5,
+        "p25": 3.0,
+        "p50": 4.0,
+        "p75": 4.0,
+        "p95": 5.0
+      },
+      "addr_tok_dist": {
+        "min": 2,
+        "max": 46,
+        "mean": 7.54,
+        "p25": 5,
+        "p50": 6,
+        "p75": 9,
+        "p95": 15.0
+      },
+      "non_ascii_name_count": 764608,
+      "non_ascii_name_pct": 15.187,
+      "non_ascii_addr_count": 478453,
+      "non_ascii_addr_pct": 9.503,
+      "audit_sec": 65.7
+    },
+    "train_source3": {
+      "label": "train_source3",
+      "size_bytes": 503705637,
+      "size_human": "480.4 MB",
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "row_count": 5285603,
+      "unique_ids": 5285603,
+      "dup_id_count": 0,
+      "unexpected_prefix": 0,
+      "prefix_dist": {
+        "S3-": 5285603
+      },
+      "null_counts": {
+        "business_address": 175916
+      },
+      "missing_pct": {
+        "business_address": 3.328
+      },
+      "country_dist": {
+        "US": 3170056,
+        "India": 2115547
+      },
+      "name_len_dist": {
+        "min": 2,
+        "max": 123,
+        "mean": 25.2,
+        "p25": 18.0,
+        "p50": 25,
+        "p75": 31.0,
+        "p95": 42.0
+      },
+      "addr_len_dist": {
+        "min": 2,
+        "max": 240,
+        "mean": 48.32,
+        "p25": 35.0,
+        "p50": 42,
+        "p75": 55.0,
+        "p95": 92.0
+      },
+      "name_tok_dist": {
+        "min": 1,
+        "max": 18,
+        "mean": 3.53,
+        "p25": 3.0,
+        "p50": 4,
+        "p75": 4.0,
+        "p95": 6.0
+      },
+      "addr_tok_dist": {
+        "min": 1,
+        "max": 43,
+        "mean": 7.42,
+        "p25": 5.0,
+        "p50": 6,
+        "p75": 9.0,
+        "p95": 14.0
+      },
+      "non_ascii_name_count": 606737,
+      "non_ascii_name_pct": 11.479,
+      "non_ascii_addr_count": 476588,
+      "non_ascii_addr_pct": 9.017,
+      "audit_sec": 73.1
+    },
+    "test_source1": {
+      "label": "test_source1",
+      "size_bytes": 175022086,
+      "size_human": "166.9 MB",
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "row_count": 1732544,
+      "unique_ids": 1732544,
+      "dup_id_count": 0,
+      "unexpected_prefix": 0,
+      "prefix_dist": {
+        "S1-": 1732544
+      },
+      "null_counts": {},
+      "missing_pct": {},
+      "country_dist": {
+        "India": 809986,
+        "US": 663106,
+        "France": 259452
+      },
+      "name_len_dist": {
+        "min": 3,
+        "max": 92,
+        "mean": 23.84,
+        "p25": 18.0,
+        "p50": 24.0,
+        "p75": 29.0,
+        "p95": 36.0
+      },
+      "addr_len_dist": {
+        "min": 11,
+        "max": 268,
+        "mean": 57.21,
+        "p25": 36.0,
+        "p50": 50.0,
+        "p75": 74.0,
+        "p95": 105.0
+      },
+      "name_tok_dist": {
+        "min": 1,
+        "max": 14,
+        "mean": 3.52,
+        "p25": 3.0,
+        "p50": 4.0,
+        "p75": 4.0,
+        "p95": 5.0
+      },
+      "addr_tok_dist": {
+        "min": 2,
+        "max": 43,
+        "mean": 8.59,
+        "p25": 6.0,
+        "p50": 8.0,
+        "p75": 11.0,
+        "p95": 16.0
+      },
+      "non_ascii_name_count": 40789,
+      "non_ascii_name_pct": 2.354,
+      "non_ascii_addr_count": 73800,
+      "non_ascii_addr_pct": 4.26,
+      "audit_sec": 20.5
+    },
+    "test_source2": {
+      "label": "test_source2",
+      "size_bytes": 509456422,
+      "size_human": "485.9 MB",
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "row_count": 4887273,
+      "unique_ids": 4887273,
+      "dup_id_count": 0,
+      "unexpected_prefix": 0,
+      "prefix_dist": {
+        "S2-": 4887273
+      },
+      "null_counts": {
+        "business_address": 129408
+      },
+      "missing_pct": {
+        "business_address": 2.648
+      },
+      "country_dist": {
+        "India": 2312565,
+        "US": 1871330,
+        "France": 703378
+      },
+      "name_len_dist": {
+        "min": 2,
+        "max": 102,
+        "mean": 25.7,
+        "p25": 19,
+        "p50": 25,
+        "p75": 32,
+        "p95": 42.0
+      },
+      "addr_len_dist": {
+        "min": 5,
+        "max": 269,
+        "mean": 51.78,
+        "p25": 32,
+        "p50": 43,
+        "p75": 68,
+        "p95": 99.0
+      },
+      "name_tok_dist": {
+        "min": 1,
+        "max": 15,
+        "mean": 3.59,
+        "p25": 3,
+        "p50": 4,
+        "p75": 4,
+        "p95": 5.0
+      },
+      "addr_tok_dist": {
+        "min": 1,
+        "max": 43,
+        "mean": 8.01,
+        "p25": 5,
+        "p50": 7,
+        "p75": 10,
+        "p95": 15.0
+      },
+      "non_ascii_name_count": 928158,
+      "non_ascii_name_pct": 18.991,
+      "non_ascii_addr_count": 720665,
+      "non_ascii_addr_pct": 14.746,
+      "audit_sec": 66.6
+    },
+    "test_source3": {
+      "label": "test_source3",
+      "size_bytes": 506002772,
+      "size_human": "482.6 MB",
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "row_count": 5082316,
+      "unique_ids": 5082316,
+      "dup_id_count": 0,
+      "unexpected_prefix": 0,
+      "prefix_dist": {
+        "S3-": 5082316
+      },
+      "null_counts": {
+        "business_address": 136098
+      },
+      "missing_pct": {
+        "business_address": 2.678
+      },
+      "country_dist": {
+        "India": 2405000,
+        "US": 1945701,
+        "France": 731615
+      },
+      "name_len_dist": {
+        "min": 2,
+        "max": 103,
+        "mean": 25.66,
+        "p25": 19.0,
+        "p50": 25.0,
+        "p75": 32.0,
+        "p95": 42.0
+      },
+      "addr_len_dist": {
+        "min": 5,
+        "max": 267,
+        "mean": 50.08,
+        "p25": 36.0,
+        "p50": 44.0,
+        "p75": 59.0,
+        "p95": 95.0
+      },
+      "name_tok_dist": {
+        "min": 1,
+        "max": 16,
+        "mean": 3.6,
+        "p25": 3.0,
+        "p50": 4.0,
+        "p75": 4.0,
+        "p95": 6.0
+      },
+      "addr_tok_dist": {
+        "min": 1,
+        "max": 43,
+        "mean": 7.72,
+        "p25": 5.0,
+        "p50": 7.0,
+        "p75": 9.0,
+        "p95": 15.0
+      },
+      "non_ascii_name_count": 737515,
+      "non_ascii_name_pct": 14.511,
+      "non_ascii_addr_count": 729222,
+      "non_ascii_addr_pct": 14.348,
+      "audit_sec": 67.0
+    },
+    "train_ground_truth": {
+      "columns": [
+        "source1_entity_id",
+        "matched_entity_ids"
+      ],
+      "row_count": 2206821,
+      "s1_zero_matches": 123247,
+      "s1_one_match": 119157,
+      "s1_multi_matches": 1964417,
+      "s1_both_s2s3": 1776047,
+      "s2_unique_matched": 3693619,
+      "s3_unique_matched": 3944746,
+      "total_matches": 7638365,
+      "max_matches_per_s1": 11,
+      "singleton_pct": 5.585,
+      "mps1_dist": {
+        "min": 0,
+        "max": 11,
+        "mean": 3.46,
+        "p25": 2,
+        "p50": 3,
+        "p75": 5,
+        "p95": 6
+      },
+      "s2ps1_dist": {
+        "min": 0,
+        "max": 5,
+        "mean": 1.67,
+        "p25": 1,
+        "p50": 2,
+        "p75": 2,
+        "p95": 4
+      },
+      "s3ps1_dist": {
+        "min": 0,
+        "max": 6,
+        "mean": 1.79,
+        "p25": 1,
+        "p50": 2,
+        "p75": 3,
+        "p95": 4
+      },
+      "match_freq": {
+        "0": 123247,
+        "1": 119157,
+        "2": 375212,
+        "3": 530841,
+        "4": 484115,
+        "5": 321957,
+        "6": 164868,
+        "7": 63968,
+        "8": 18680,
+        "9": 4205,
+        "10": 534,
+        "11": 37
+      },
+      "s2_multi_participation": 0,
+      "s3_multi_participation": 0,
+      "audit_sec": 41.1
+    }
+  },
+  "leakage": {
+    "s1_ids_in_s2_train": 0,
+    "s1_ids_in_s3_train": 0,
+    "train_test_s1_overlap": 0,
+    "train_test_s2_overlap": 0,
+    "train_test_s3_overlap": 0
+  },
+  "candidate_scale": {
+    "test_naive_cartesian_pairs": 17272751604416,
+    "train_naive_cartesian_pairs": 22774876013799
+  },
+  "f05_analysis": {
+    "total_s1": 2206821,
+    "singletons": 123247,
+    "singleton_pct": 5.585,
+    "baseline_none_f05": 0.0558
+  },
+  "country_shift": {
+    "train": [
+      "India",
+      "US"
+    ],
+    "test": [
+      "France",
+      "India",
+      "US"
+    ],
+    "new_in_test": [
+      "France"
+    ]
+  }
+}

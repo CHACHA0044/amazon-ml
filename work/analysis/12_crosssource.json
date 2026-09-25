@@ -1,0 +1,8 @@
+{
+  "n_s1_both": 1733536,
+  "n_cross_pairs": 4416244,
+  "cross_pairs_per_s1_mean": 2.548,
+  "name_agree_rate": 0.14358,
+  "name_agree_per_s1": 0.35418,
+  "full_agree_rate": 0.00063
+}

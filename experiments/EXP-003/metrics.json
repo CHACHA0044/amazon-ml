@@ -1,0 +1,47 @@
+{
+  "overall": {
+    "precision": 0.844832,
+    "recall": 0.612513,
+    "f05": 0.688125,
+    "tp": 21234,
+    "fp": 3900,
+    "fn": 13433,
+    "n_entities": 10001,
+    "micro_f05": 0.785264,
+    "f05_stdev": 0.322692
+  },
+  "us": {
+    "precision": 0.862731,
+    "recall": 0.614256,
+    "f05": 0.698858,
+    "tp": 12771,
+    "fp": 2032,
+    "fn": 8020,
+    "n_entities": 5998,
+    "micro_f05": 0.798158,
+    "f05_stdev": 0.317813
+  },
+  "india": {
+    "precision": 0.819185,
+    "recall": 0.609902,
+    "f05": 0.672043,
+    "tp": 8463,
+    "fp": 1868,
+    "fn": 5413,
+    "n_entities": 4003,
+    "micro_f05": 0.766576,
+    "f05_stdev": 0.329252
+  },
+  "k0_singleton": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f05": 0.583184,
+    "tp": 0,
+    "fp": 326,
+    "fn": 0,
+    "n_entities": 559,
+    "micro_f05": 0.0,
+    "f05_stdev": 0.493473
+  },
+  "policy_name": "EXP-003 Hybrid + Disjoint Star Cluster (0.88)"
+}

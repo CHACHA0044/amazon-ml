@@ -1,0 +1,97 @@
+{
+  "overall": {
+    "precision": 0.74229,
+    "recall": 0.633196,
+    "f05": 0.643355,
+    "tp": 21951,
+    "fp": 7621,
+    "fn": 12716,
+    "n_entities": 10001,
+    "micro_f05": 0.717564,
+    "f05_stdev": 0.321888
+  },
+  "us": {
+    "precision": 0.782323,
+    "recall": 0.635612,
+    "f05": 0.663705,
+    "tp": 13215,
+    "fp": 3677,
+    "fn": 7576,
+    "n_entities": 5998,
+    "micro_f05": 0.747802,
+    "f05_stdev": 0.316836
+  },
+  "india": {
+    "precision": 0.688959,
+    "recall": 0.629576,
+    "f05": 0.612862,
+    "tp": 8736,
+    "fp": 3944,
+    "fn": 5140,
+    "n_entities": 4003,
+    "micro_f05": 0.676203,
+    "f05_stdev": 0.326989
+  },
+  "cardinality": {
+    "k0_singleton": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f05": 0.504472,
+      "tp": 0,
+      "fp": 520,
+      "fn": 0,
+      "n_entities": 559,
+      "micro_f05": 0.0,
+      "f05_stdev": 0.500428
+    },
+    "k1": {
+      "precision": 0.451852,
+      "recall": 0.564815,
+      "f05": 0.397817,
+      "tp": 305,
+      "fp": 370,
+      "fn": 235,
+      "n_entities": 540,
+      "micro_f05": 0.470679,
+      "f05_stdev": 0.3977
+    },
+    "k2_3": {
+      "precision": 0.679669,
+      "recall": 0.627333,
+      "f05": 0.610372,
+      "tp": 6656,
+      "fp": 3137,
+      "fn": 3954,
+      "n_entities": 4106,
+      "micro_f05": 0.668515,
+      "f05_stdev": 0.321463
+    },
+    "k4_5": {
+      "precision": 0.789921,
+      "recall": 0.635517,
+      "f05": 0.70388,
+      "tp": 10235,
+      "fp": 2722,
+      "fn": 5870,
+      "n_entities": 3653,
+      "micro_f05": 0.753316,
+      "f05_stdev": 0.266383
+    },
+    "k6_plus": {
+      "precision": 0.845033,
+      "recall": 0.641527,
+      "f05": 0.752326,
+      "tp": 4755,
+      "fp": 872,
+      "fn": 2657,
+      "n_entities": 1143,
+      "micro_f05": 0.794619,
+      "f05_stdev": 0.215465
+    }
+  },
+  "stats": {
+    "predicted_s1_count": 8650,
+    "predicted_pairs_total": 29572,
+    "avg_preds_per_predicted_s1": 3.42
+  }
+}

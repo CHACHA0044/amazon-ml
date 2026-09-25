@@ -1,0 +1,55 @@
+{
+  "n_pos": 600000,
+  "n_neg": 821287,
+  "same_name_pairs": 423603,
+  "same_name_neg_frac": 0.40551,
+  "same_name_neg_addr_strong_frac": 0.00028,
+  "same_name_neg_addr_char2_0_6_frac": 0.00046,
+  "same_name_neg_num_overlap1_frac": 0.00278,
+  "same_name_neg_both_addr_strong_info": {
+    "n": 15,
+    "frac": 0.00278
+  },
+  "same_addr_neg_n": 71289,
+  "same_addr_neg_name_strong_frac": 0.01425,
+  "per_channel_neg": {
+    "n_nameblk": {
+      "n": 250000,
+      "name_eq": 1.0,
+      "addr_eq": 0.0,
+      "name_tok_jac_ge_0_5": 1.0,
+      "addr_tok_jac_ge_0_5": 0.00026,
+      "num_overlap_ge_1": 0.00277,
+      "rare_shared_ge_1": 0.21954
+    },
+    "n_addrblk": {
+      "n": 71287,
+      "name_eq": 0.0,
+      "addr_eq": 1.0,
+      "name_tok_jac_ge_0_5": 0.01422,
+      "addr_tok_jac_ge_0_5": 1.0,
+      "num_overlap_ge_1": 0.89019,
+      "rare_shared_ge_1": 0.01529
+    },
+    "n_raretok": {
+      "n": 250000,
+      "name_eq": 0.00731,
+      "addr_eq": 0.0,
+      "name_tok_jac_ge_0_5": 0.15632,
+      "addr_tok_jac_ge_0_5": 0.01225,
+      "num_overlap_ge_1": 0.00828,
+      "rare_shared_ge_1": 1.0
+    },
+    "n_random": {
+      "n": 250000,
+      "name_eq": 0.0,
+      "addr_eq": 0.0,
+      "name_tok_jac_ge_0_5": 0.00114,
+      "addr_tok_jac_ge_0_5": 1e-05,
+      "num_overlap_ge_1": 0.0022,
+      "rare_shared_ge_1": 0.00013
+    }
+  },
+  "hard_both_strong_neg": 656,
+  "hard_namestrong_num": 1027
+}

@@ -1,0 +1,72 @@
+{
+  "n_s1_matched": 2083574,
+  "n_matches_per_s1": {
+    "mean": 3.666,
+    "median": 4,
+    "p90": 6,
+    "p99": 8,
+    "max": 11,
+    "n_1": 119157,
+    "n_2": 375212,
+    "n_3": 530841,
+    "n_4p": 1058364
+  },
+  "match_count_hist": {
+    "1": 119157,
+    "2": 375212,
+    "3": 530841,
+    "4": 484115,
+    "5": 321957,
+    "6": 164868,
+    "7": 63968,
+    "8": 18680,
+    "9": 4205,
+    "10": 534,
+    "11": 37
+  },
+  "s2_only": 143029,
+  "s3_only": 164498,
+  "both": 1776047,
+  "by_msrc": [
+    {
+      "msrc": "S3",
+      "n": 3944746
+    },
+    {
+      "msrc": "S2",
+      "n": 3693619
+    }
+  ],
+  "candidate_coverage": {
+    "S1": {
+      "total": 2206821,
+      "matched_unique": 0,
+      "unmatched": 2206821,
+      "unmatched_frac": 1.0
+    },
+    "S3": {
+      "total": 5285603,
+      "matched_unique": 3944746,
+      "unmatched": 1340857,
+      "unmatched_frac": 0.25368
+    },
+    "S2": {
+      "total": 5034616,
+      "matched_unique": 3693619,
+      "unmatched": 1340997,
+      "unmatched_frac": 0.26636
+    }
+  },
+  "by_country": {
+    "India": {
+      "n_s1": 833837,
+      "mean": 3.67,
+      "median": 4
+    },
+    "US": {
+      "n_s1": 1249737,
+      "mean": 3.664,
+      "median": 4
+    }
+  }
+}

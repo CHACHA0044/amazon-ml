@@ -1,0 +1,13 @@
+{
+  "split_artifacts_found": [
+    "docs/validation_strategy.md",
+    "src/evaluation"
+  ],
+  "code_references_to_splits": [
+    "docs/validation_strategy.md",
+    "scripts/discovery/13_splitcheck.py"
+  ],
+  "train_test_s1_id_overlap": 0,
+  "gt_s2_ids_present_in_test_s2": 0,
+  "conclusion": "split_exists"
+}

@@ -1,0 +1,43 @@
+{
+  "record_stats": {
+    "India": {
+      "n_records": 5016534,
+      "addr_missing": 0.02448,
+      "starts_house_no": 0.90778,
+      "zip5_present": 0.13798,
+      "pin6_present": 0.11972,
+      "addr_with_digits": 0.90778,
+      "addr_median_tokens": 11
+    },
+    "US": {
+      "n_records": 7510506,
+      "addr_missing": 0.02957,
+      "starts_house_no": 0.92389,
+      "zip5_present": 0.15439,
+      "pin6_present": 0.03161,
+      "addr_with_digits": 0.92389,
+      "addr_median_tokens": 6
+    }
+  },
+  "pair_component_agreement": {
+    "n_pairs": 992763,
+    "house_no_present_both": 0.87161,
+    "house_no_eq_given_both": 0.54771,
+    "postal_eq_given_both": 0.57125,
+    "house_no_eq_given_present": 0.54771,
+    "India": {
+      "n_pairs": 397782,
+      "both_have_nums": 0.86242,
+      "house_no_eq": 0.52871,
+      "postal_eq": 0.55493,
+      "addr_missing_any": 0.03989
+    },
+    "US": {
+      "n_pairs": 594981,
+      "both_have_nums": 0.87775,
+      "house_no_eq": 0.56041,
+      "postal_eq": 0.58215,
+      "addr_missing_any": 0.04712
+    }
+  }
+}

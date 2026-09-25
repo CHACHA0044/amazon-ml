@@ -1,0 +1,183 @@
+{
+  "07_pool_by_country": {
+    "India": {
+      "n_pos": 240715,
+      "n_neg": 376101,
+      "name_tok_jac": {
+        "pos_mean": 0.57797,
+        "neg_mean": 0.45806,
+        "auc": 0.56829
+      },
+      "name_char2": {
+        "pos_mean": 0.63156,
+        "neg_mean": 0.45981,
+        "auc": 0.5793
+      },
+      "name_char3": {
+        "pos_mean": 0.58875,
+        "neg_mean": 0.42122,
+        "auc": 0.58537
+      },
+      "addr_tok_jac": {
+        "pos_mean": 0.66291,
+        "neg_mean": 0.08623,
+        "auc": 0.9163
+      },
+      "addr_char2": {
+        "pos_mean": 0.71842,
+        "neg_mean": 0.19752,
+        "auc": 0.89653
+      },
+      "addr_char3": {
+        "pos_mean": 0.66771,
+        "neg_mean": 0.09647,
+        "auc": 0.9053
+      },
+      "num_overlap": {
+        "pos_mean": 1.03461,
+        "neg_mean": 0.0879,
+        "auc": 0.80977
+      },
+      "rare_shared": {
+        "pos_mean": 0.61016,
+        "neg_mean": 0.32581,
+        "auc": 0.6049
+      }
+    },
+    "US": {
+      "n_pos": 359285,
+      "n_neg": 445186,
+      "name_tok_jac": {
+        "pos_mean": 0.7093,
+        "neg_mean": 0.36343,
+        "auc": 0.71907
+      },
+      "name_char2": {
+        "pos_mean": 0.78552,
+        "neg_mean": 0.39802,
+        "auc": 0.74101
+      },
+      "name_char3": {
+        "pos_mean": 0.73777,
+        "neg_mean": 0.35434,
+        "auc": 0.73955
+      },
+      "addr_tok_jac": {
+        "pos_mean": 0.55488,
+        "neg_mean": 0.12421,
+        "auc": 0.86926
+      },
+      "addr_char2": {
+        "pos_mean": 0.69574,
+        "neg_mean": 0.18697,
+        "auc": 0.84986
+      },
+      "addr_char3": {
+        "pos_mean": 0.62354,
+        "neg_mean": 0.13302,
+        "auc": 0.85967
+      },
+      "num_overlap": {
+        "pos_mean": 0.74772,
+        "neg_mean": 0.12179,
+        "auc": 0.77306
+      },
+      "rare_shared": {
+        "pos_mean": 0.85499,
+        "neg_mean": 0.47394,
+        "auc": 0.61091
+      }
+    }
+  },
+  "07_block_growth_by_country": {
+    "India": {
+      "n_s1_with_block_partners": 367031,
+      "partner_median": 2,
+      "partner_mean": 2.324,
+      "partner_p90": 4,
+      "partner_p99": 21,
+      "partner_max": 163
+    },
+    "US": {
+      "n_s1_with_block_partners": 671619,
+      "partner_median": 2,
+      "partner_mean": 2.62,
+      "partner_p90": 4,
+      "partner_p99": 18,
+      "partner_max": 1071
+    }
+  },
+  "08_name_token_overlap": {
+    "train_unique": 1421701,
+    "test_unique": 1188299,
+    "test_seen_in_train": 278960,
+    "test_seen_frac": 0.23476
+  },
+  "08_name_block_overlap": {
+    "train_unique": 7727848,
+    "test_unique": 7627244,
+    "test_seen_in_train": 718438,
+    "test_seen_frac": 0.09419
+  },
+  "08_test_country_counts": [
+    {
+      "src": 2,
+      "country": "France",
+      "n": 703378
+    },
+    {
+      "src": 1,
+      "country": "France",
+      "n": 259452
+    },
+    {
+      "src": 1,
+      "country": "India",
+      "n": 809986
+    },
+    {
+      "src": 2,
+      "country": "India",
+      "n": 2312565
+    },
+    {
+      "src": 1,
+      "country": "US",
+      "n": 663106
+    },
+    {
+      "src": 3,
+      "country": "US",
+      "n": 1945701
+    },
+    {
+      "src": 2,
+      "country": "US",
+      "n": 1871330
+    },
+    {
+      "src": 3,
+      "country": "France",
+      "n": 731615
+    },
+    {
+      "src": 3,
+      "country": "India",
+      "n": 2405000
+    }
+  ],
+  "08_france_by_src": [
+    {
+      "src": 1,
+      "n": 259452
+    },
+    {
+      "src": 2,
+      "n": 703378
+    },
+    {
+      "src": 3,
+      "n": 731615
+    }
+  ]
+}

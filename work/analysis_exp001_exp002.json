@@ -1,0 +1,531 @@
+{
+  "blocking_recall": 0.7175123316121961,
+  "sample_fps": [
+    {
+      "s1_id": "S1-192033397",
+      "country": "US",
+      "s1_name": "fredelia c winstead l c s w",
+      "s1_addr": "1975 85 deep river ia",
+      "fp_cids": [
+        "S2-524824680"
+      ]
+    },
+    {
+      "s1_id": "S1-794066129",
+      "country": "US",
+      "s1_name": "larine utley p a",
+      "s1_addr": "10083 weaver avenue cherry creek co",
+      "fp_cids": [
+        "S2-563467734"
+      ]
+    },
+    {
+      "s1_id": "S1-609049042",
+      "country": "US",
+      "s1_name": "edwards doss auto glass",
+      "s1_addr": "29 st bridgets drive rochester ny",
+      "fp_cids": [
+        "S3-991412197",
+        "S3-49879681"
+      ]
+    },
+    {
+      "s1_id": "S1-411457951",
+      "country": "US",
+      "s1_name": "hunter sumter mcdonnell chicago group",
+      "s1_addr": "2707 stoneriver road arlington tx",
+      "fp_cids": [
+        "S3-688159598",
+        "S2-761944754"
+      ]
+    },
+    {
+      "s1_id": "S1-363533908",
+      "country": "US",
+      "s1_name": "corner hair studio",
+      "s1_addr": "1028 42nd street il washington park",
+      "fp_cids": [
+        "S3-924964331",
+        "S2-944636310",
+        "S3-752668212",
+        "S2-360166060",
+        "S2-541488645"
+      ]
+    },
+    {
+      "s1_id": "S1-901158754",
+      "country": "US",
+      "s1_name": "gallegos beverage llc",
+      "s1_addr": "115 sunglow loop red oak tx",
+      "fp_cids": [
+        "S3-923779894"
+      ]
+    },
+    {
+      "s1_id": "S1-224276871",
+      "country": "US",
+      "s1_name": "britni thomas metropolitan joint inc",
+      "s1_addr": "17614 boat hook street crosby tx",
+      "fp_cids": [
+        "S2-699999968",
+        "S2-902049459"
+      ]
+    },
+    {
+      "s1_id": "S1-372075077",
+      "country": "US",
+      "s1_name": "cheslie w ronning o d",
+      "s1_addr": "8619 laurel run drive charlotte nc",
+      "fp_cids": [
+        "S2-909100766",
+        "S2-611559974"
+      ]
+    },
+    {
+      "s1_id": "S1-767396260",
+      "country": "US",
+      "s1_name": "bright barbershop",
+      "s1_addr": "3510 estrellita avenue harlingen tx",
+      "fp_cids": [
+        "S2-151545397",
+        "S2-836633047",
+        "S2-547864117",
+        "S2-876093777",
+        "S3-101768038"
+      ]
+    },
+    {
+      "s1_id": "S1-308570664",
+      "country": "US",
+      "s1_name": "pacific eastern pc",
+      "s1_addr": "nc 592 countrytown drive hope mills",
+      "fp_cids": [
+        "S2-549340186"
+      ]
+    }
+  ],
+  "sample_fns": [
+    {
+      "s1_id": "S1-481270277",
+      "country": "India",
+      "s1_name": "classic logistics pvt ltd",
+      "s1_addr": "patna 403 hem plaza 4th floor frazer road bihar patna",
+      "fn_cids": [
+        "S2-786396710",
+        "S3-342651959",
+        "S2-160879160"
+      ],
+      "retrieved_in_blocking": [
+        "S2-86362587"
+      ],
+      "missed_in_blocking": [
+        "S2-786396710",
+        "S3-342651959",
+        "S2-160879160"
+      ]
+    },
+    {
+      "s1_id": "S1-631619201",
+      "country": "India",
+      "s1_name": "new delhi care pvt ltd",
+      "s1_addr": "b 3 pocket c mayur vihar phase2 new delhi east delhi delhi",
+      "fn_cids": [
+        "S3-306671815",
+        "S2-531439596",
+        "S3-962385262",
+        "S3-966275301"
+      ],
+      "retrieved_in_blocking": [],
+      "missed_in_blocking": [
+        "S3-306671815",
+        "S2-531439596",
+        "S3-962385262",
+        "S3-966275301"
+      ]
+    },
+    {
+      "s1_id": "S1-569735648",
+      "country": "India",
+      "s1_name": "maa builders private limited",
+      "s1_addr": "304 agarawal chamber pkt o dilshad garden delhi east delhi delhi",
+      "fn_cids": [
+        "S2-412439133",
+        "S2-250145276",
+        "S3-568200192"
+      ],
+      "retrieved_in_blocking": [
+        "S3-568200192",
+        "S2-412439133",
+        "S2-250145276",
+        "S3-476981594",
+        "S3-132731554"
+      ],
+      "missed_in_blocking": []
+    },
+    {
+      "s1_id": "S1-889499154",
+      "country": "India",
+      "s1_name": "bharat engineering pvt ltd",
+      "s1_addr": "the gateway a 201 s no 6 123 balewadi haveli pune maharashtra",
+      "fn_cids": [
+        "S2-89245902",
+        "S2-475505250",
+        "S3-235907705",
+        "S3-479640852"
+      ],
+      "retrieved_in_blocking": [
+        "S2-475505250",
+        "S3-235907705"
+      ],
+      "missed_in_blocking": [
+        "S2-89245902",
+        "S3-479640852"
+      ]
+    },
+    {
+      "s1_id": "S1-369418634",
+      "country": "India",
+      "s1_name": "fortune builders private limited",
+      "s1_addr": "office no 340 third floor block d e chandigarh citi centre rajpura mohali punjab",
+      "fn_cids": [
+        "S2-329251410",
+        "S3-471930795",
+        "S3-121721642",
+        "S3-946367487",
+        "S3-653939999"
+      ],
+      "retrieved_in_blocking": [],
+      "missed_in_blocking": [
+        "S2-329251410",
+        "S3-121721642",
+        "S3-653939999",
+        "S3-471930795",
+        "S3-946367487"
+      ]
+    },
+    {
+      "s1_id": "S1-912667383",
+      "country": "India",
+      "s1_name": "dream food private limited",
+      "s1_addr": "plot no 308 epip hsiidc kundli distt sonepat haryana",
+      "fn_cids": [
+        "S3-474787745",
+        "S2-572221847",
+        "S3-395629442",
+        "S2-811049381",
+        "S3-802761260"
+      ],
+      "retrieved_in_blocking": [],
+      "missed_in_blocking": [
+        "S3-474787745",
+        "S3-395629442",
+        "S2-811049381",
+        "S2-572221847",
+        "S3-802761260"
+      ]
+    },
+    {
+      "s1_id": "S1-308435398",
+      "country": "India",
+      "s1_name": "jay estate limited",
+      "s1_addr": "no 20 2 sundar nagar poonamallee chennai tamil nadu",
+      "fn_cids": [
+        "S3-4242247",
+        "S3-651752931",
+        "S2-90674748",
+        "S2-841267732"
+      ],
+      "retrieved_in_blocking": [
+        "S3-4242247",
+        "S2-90674748",
+        "S2-841267732"
+      ],
+      "missed_in_blocking": [
+        "S3-651752931"
+      ]
+    },
+    {
+      "s1_id": "S1-126842070",
+      "country": "India",
+      "s1_name": "balaji it",
+      "s1_addr": "central electricals shop no 1 ground floor no 235 garudachar complex above hotel vijay vih ar chikpet bangalore karnataka",
+      "fn_cids": [
+        "S2-847377730",
+        "S2-773143830",
+        "S3-466843587"
+      ],
+      "retrieved_in_blocking": [
+        "S2-847377730",
+        "S2-425781342",
+        "S2-773143830",
+        "S3-727714587"
+      ],
+      "missed_in_blocking": [
+        "S3-466843587"
+      ]
+    },
+    {
+      "s1_id": "S1-521892725",
+      "country": "India",
+      "s1_name": "city business private limited",
+      "s1_addr": "24 c pratap nagar udaipur rajasthan",
+      "fn_cids": [
+        "S3-663546455",
+        "S2-589543056",
+        "S2-851576940"
+      ],
+      "retrieved_in_blocking": [
+        "S2-357701591",
+        "S2-589543056",
+        "S2-851576940"
+      ],
+      "missed_in_blocking": [
+        "S3-663546455"
+      ]
+    },
+    {
+      "s1_id": "S1-803609645",
+      "country": "India",
+      "s1_name": "hitech systems private limited",
+      "s1_addr": "south delhi delhi a 1 161 2nd floor south delhi safdarjung enclave delhi",
+      "fn_cids": [
+        "S3-314268639",
+        "S2-564219374",
+        "S2-101480306",
+        "S2-627699210",
+        "S2-96498707"
+      ],
+      "retrieved_in_blocking": [],
+      "missed_in_blocking": [
+        "S3-314268639",
+        "S2-564219374",
+        "S2-101480306",
+        "S2-627699210",
+        "S2-96498707"
+      ]
+    }
+  ],
+  "sample_singleton_fps": [
+    {
+      "s1_id": "S1-192033397",
+      "country": "US",
+      "s1_name": "fredelia c winstead l c s w",
+      "s1_addr": "1975 85 deep river ia",
+      "fp_cids": [
+        "S2-524824680"
+      ]
+    },
+    {
+      "s1_id": "S1-794066129",
+      "country": "US",
+      "s1_name": "larine utley p a",
+      "s1_addr": "10083 weaver avenue cherry creek co",
+      "fp_cids": [
+        "S2-563467734"
+      ]
+    },
+    {
+      "s1_id": "S1-609049042",
+      "country": "US",
+      "s1_name": "edwards doss auto glass",
+      "s1_addr": "29 st bridgets drive rochester ny",
+      "fp_cids": [
+        "S3-991412197",
+        "S3-49879681"
+      ]
+    },
+    {
+      "s1_id": "S1-411457951",
+      "country": "US",
+      "s1_name": "hunter sumter mcdonnell chicago group",
+      "s1_addr": "2707 stoneriver road arlington tx",
+      "fp_cids": [
+        "S3-688159598",
+        "S2-761944754"
+      ]
+    },
+    {
+      "s1_id": "S1-363533908",
+      "country": "US",
+      "s1_name": "corner hair studio",
+      "s1_addr": "1028 42nd street il washington park",
+      "fp_cids": [
+        "S3-924964331",
+        "S2-944636310",
+        "S3-752668212",
+        "S2-360166060",
+        "S2-541488645"
+      ]
+    },
+    {
+      "s1_id": "S1-901158754",
+      "country": "US",
+      "s1_name": "gallegos beverage llc",
+      "s1_addr": "115 sunglow loop red oak tx",
+      "fp_cids": [
+        "S3-923779894"
+      ]
+    },
+    {
+      "s1_id": "S1-224276871",
+      "country": "US",
+      "s1_name": "britni thomas metropolitan joint inc",
+      "s1_addr": "17614 boat hook street crosby tx",
+      "fp_cids": [
+        "S2-699999968",
+        "S2-902049459"
+      ]
+    },
+    {
+      "s1_id": "S1-372075077",
+      "country": "US",
+      "s1_name": "cheslie w ronning o d",
+      "s1_addr": "8619 laurel run drive charlotte nc",
+      "fp_cids": [
+        "S2-909100766",
+        "S2-611559974"
+      ]
+    },
+    {
+      "s1_id": "S1-767396260",
+      "country": "US",
+      "s1_name": "bright barbershop",
+      "s1_addr": "3510 estrellita avenue harlingen tx",
+      "fp_cids": [
+        "S2-151545397",
+        "S2-836633047",
+        "S2-547864117",
+        "S2-876093777",
+        "S3-101768038"
+      ]
+    },
+    {
+      "s1_id": "S1-308570664",
+      "country": "US",
+      "s1_name": "pacific eastern pc",
+      "s1_addr": "nc 592 countrytown drive hope mills",
+      "fp_cids": [
+        "S2-549340186"
+      ]
+    }
+  ],
+  "summary_table": [
+    {
+      "Model / Policy": "Baseline 0 (Predict Nothing)",
+      "Macro F0.5": 0.055894,
+      "Micro F0.5": 0.0,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "TP": 0,
+      "FP": 0,
+      "FN": 34667,
+      "US F0.5": 0.055852,
+      "India F0.5": 0.055958,
+      "k=0 F0.5": 1.0
+    },
+    {
+      "Model / Policy": "Baseline 1 (Exact Name)",
+      "Macro F0.5": 0.357588,
+      "Micro F0.5": 0.124897,
+      "Precision": 0.110766,
+      "Recall": 0.255055,
+      "TP": 8842,
+      "FP": 70984,
+      "FN": 25825,
+      "US F0.5": 0.402982,
+      "India F0.5": 0.28957,
+      "k=0 F0.5": 0.60644
+    },
+    {
+      "Model / Policy": "Baseline 2 (Exact Name + Numeric)",
+      "Macro F0.5": 0.342141,
+      "Micro F0.5": 0.489011,
+      "Precision": 0.981375,
+      "Recall": 0.162633,
+      "TP": 5638,
+      "FP": 107,
+      "FN": 29029,
+      "US F0.5": 0.383678,
+      "India F0.5": 0.279904,
+      "k=0 F0.5": 0.991055
+    },
+    {
+      "Model / Policy": "Baseline 3 (Name + Address Rule)",
+      "Macro F0.5": 0.547485,
+      "Micro F0.5": 0.691896,
+      "Precision": 0.895003,
+      "Recall": 0.362679,
+      "TP": 12573,
+      "FP": 1475,
+      "FN": 22094,
+      "US F0.5": 0.534339,
+      "India F0.5": 0.567184,
+      "k=0 F0.5": 0.796064
+    },
+    {
+      "Model / Policy": "EXP-001 (Deterministic Tiered)",
+      "Macro F0.5": 0.642712,
+      "Micro F0.5": 0.707805,
+      "Precision": 0.728669,
+      "Recall": 0.635071,
+      "TP": 22016,
+      "FP": 8198,
+      "FN": 12651,
+      "US F0.5": 0.663402,
+      "India F0.5": 0.61171,
+      "k=0 F0.5": 0.422182
+    },
+    {
+      "Model / Policy": "EXP-002 Policy A (Global Thresh 0.75)",
+      "Macro F0.5": 0.642712,
+      "Micro F0.5": 0.707805,
+      "Precision": 0.728669,
+      "Recall": 0.635071,
+      "TP": 22016,
+      "FP": 8198,
+      "FN": 12651,
+      "US F0.5": 0.663402,
+      "India F0.5": 0.61171,
+      "k=0 F0.5": 0.422182
+    },
+    {
+      "Model / Policy": "EXP-002 Policy B (Tiered 0.88/0.75)",
+      "Macro F0.5": 0.642712,
+      "Micro F0.5": 0.707805,
+      "Precision": 0.728669,
+      "Recall": 0.635071,
+      "TP": 22016,
+      "FP": 8198,
+      "FN": 12651,
+      "US F0.5": 0.663402,
+      "India F0.5": 0.61171,
+      "k=0 F0.5": 0.422182
+    },
+    {
+      "Model / Policy": "EXP-002 Policy C (Per-S1 Ranked)",
+      "Macro F0.5": 0.668268,
+      "Micro F0.5": 0.751493,
+      "Precision": 0.796868,
+      "Recall": 0.612081,
+      "TP": 21219,
+      "FP": 5409,
+      "FN": 13448,
+      "US F0.5": 0.69079,
+      "India F0.5": 0.634521,
+      "k=0 F0.5": 0.556351
+    },
+    {
+      "Model / Policy": "EXP-002 Policy D (Anchor Expansion)",
+      "Macro F0.5": 0.643355,
+      "Micro F0.5": 0.717564,
+      "Precision": 0.74229,
+      "Recall": 0.633196,
+      "TP": 21951,
+      "FP": 7621,
+      "FN": 12716,
+      "US F0.5": 0.663705,
+      "India F0.5": 0.612862,
+      "k=0 F0.5": 0.504472
+    }
+  ]
+}

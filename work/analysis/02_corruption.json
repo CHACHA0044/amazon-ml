@@ -1,0 +1,964 @@
+{
+  "n_pairs": 992763,
+  "name_type": [
+    {
+      "name_type": "heavy",
+      "n": 368981,
+      "name_tok_jac_mean": 0.31607512327467435,
+      "addr_tok_jac_mean": 0.6046815405671113,
+      "num_overlap_mean": 0.9218848667004534,
+      "frac": 0.37167
+    },
+    {
+      "name_type": "subtoken",
+      "n": 269642,
+      "name_tok_jac_mean": 0.6750571263077768,
+      "addr_tok_jac_mean": 0.6197210827032641,
+      "num_overlap_mean": 0.899663257207705,
+      "frac": 0.27161
+    },
+    {
+      "name_type": "punct",
+      "n": 149385,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.5683612712419047,
+      "num_overlap_mean": 0.8483381865649161,
+      "frac": 0.15047
+    },
+    {
+      "name_type": "order",
+      "n": 70095,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.5858668513298724,
+      "num_overlap_mean": 0.8763963192809758,
+      "frac": 0.07061
+    },
+    {
+      "name_type": "case",
+      "n": 60606,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.5685988811836865,
+      "num_overlap_mean": 0.8225588225588225,
+      "frac": 0.06105
+    },
+    {
+      "name_type": "exact",
+      "n": 45893,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.568260732742326,
+      "num_overlap_mean": 0.8213888828361624,
+      "frac": 0.04623
+    },
+    {
+      "name_type": "suffix",
+      "n": 28161,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.6324575962278549,
+      "num_overlap_mean": 1.033805617698235,
+      "frac": 0.02837
+    }
+  ],
+  "addr_type": [
+    {
+      "addr_type": "heavy",
+      "n": 715180,
+      "name_tok_jac_mean": 0.6707679355508005,
+      "addr_tok_jac_mean": 0.5342300932024917,
+      "num_overlap_mean": 0.8621745574540675,
+      "frac": 0.72039
+    },
+    {
+      "addr_type": "subtoken",
+      "n": 108417,
+      "name_tok_jac_mean": 0.6123981794206598,
+      "addr_tok_jac_mean": 0.8043615951585376,
+      "num_overlap_mean": 1.0586623868950442,
+      "frac": 0.10921
+    },
+    {
+      "addr_type": "case",
+      "n": 50071,
+      "name_tok_jac_mean": 0.6467721182795853,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.3071638273651416,
+      "frac": 0.05044
+    },
+    {
+      "addr_type": "missing",
+      "n": 43903,
+      "name_tok_jac_mean": 0.7709406929084377,
+      "addr_tok_jac_mean": 0.0,
+      "num_overlap_mean": 0.0314557091770494,
+      "frac": 0.04422
+    },
+    {
+      "addr_type": "order",
+      "n": 42967,
+      "name_tok_jac_mean": 0.5644367703252966,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.240370516908325,
+      "frac": 0.04328
+    },
+    {
+      "addr_type": "exact",
+      "n": 22036,
+      "name_tok_jac_mean": 0.4287344214497508,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.4098747504084226,
+      "frac": 0.0222
+    },
+    {
+      "addr_type": "abbr",
+      "n": 10189,
+      "name_tok_jac_mean": 0.6619296055195057,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 0.4891549710472078,
+      "frac": 0.01026
+    }
+  ],
+  "name_type_by_country": [
+    {
+      "name_type": "heavy",
+      "q_country": "India",
+      "n": 184947,
+      "name_tok_jac_mean": 0.2514243744637378,
+      "addr_tok_jac_mean": 0.6602383589515467,
+      "num_overlap_mean": 1.1009478391106642
+    },
+    {
+      "name_type": "heavy",
+      "q_country": "US",
+      "n": 184034,
+      "name_tok_jac_mean": 0.3810466070240262,
+      "addr_tok_jac_mean": 0.5488491025950649,
+      "num_overlap_mean": 0.7419335557560016
+    },
+    {
+      "name_type": "subtoken",
+      "q_country": "US",
+      "n": 180698,
+      "name_tok_jac_mean": 0.6732471319750802,
+      "addr_tok_jac_mean": 0.5860117230224566,
+      "num_overlap_mean": 0.7779720860219814
+    },
+    {
+      "name_type": "punct",
+      "q_country": "US",
+      "n": 100701,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.5323379204247844,
+      "num_overlap_mean": 0.7297047695653469
+    },
+    {
+      "name_type": "subtoken",
+      "q_country": "India",
+      "n": 88944,
+      "name_tok_jac_mean": 0.6787342979657904,
+      "addr_tok_jac_mean": 0.688204778912187,
+      "num_overlap_mean": 1.1468901780895844
+    },
+    {
+      "name_type": "punct",
+      "q_country": "India",
+      "n": 48684,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.642874200554082,
+      "num_overlap_mean": 1.0937268917919645
+    },
+    {
+      "name_type": "case",
+      "q_country": "US",
+      "n": 45462,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.5409162123584268,
+      "num_overlap_mean": 0.7294663675157275
+    },
+    {
+      "name_type": "order",
+      "q_country": "US",
+      "n": 43373,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.5483262625414647,
+      "num_overlap_mean": 0.7435270790584004
+    },
+    {
+      "name_type": "exact",
+      "q_country": "US",
+      "n": 35067,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.5422253789372473,
+      "num_overlap_mean": 0.7352496649271395
+    },
+    {
+      "name_type": "order",
+      "q_country": "India",
+      "n": 26722,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.6467997140467233,
+      "num_overlap_mean": 1.0920589776214356
+    },
+    {
+      "name_type": "suffix",
+      "q_country": "India",
+      "n": 22515,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.6552265923883404,
+      "num_overlap_mean": 1.1149011769931156
+    },
+    {
+      "name_type": "case",
+      "q_country": "India",
+      "n": 15144,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.6517017265438323,
+      "num_overlap_mean": 1.1020206022187005
+    },
+    {
+      "name_type": "exact",
+      "q_country": "India",
+      "n": 10826,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.6525930578746739,
+      "num_overlap_mean": 1.100406428967301
+    },
+    {
+      "name_type": "suffix",
+      "q_country": "US",
+      "n": 5646,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.5416598724316586,
+      "num_overlap_mean": 0.7104144527098831
+    }
+  ],
+  "addr_type_by_country": [
+    {
+      "addr_type": "heavy",
+      "q_country": "US",
+      "n": 455758,
+      "name_tok_jac_mean": 0.7149576250711063,
+      "addr_tok_jac_mean": 0.5013310518072075,
+      "num_overlap_mean": 0.7481009658634626
+    },
+    {
+      "addr_type": "heavy",
+      "q_country": "India",
+      "n": 259422,
+      "name_tok_jac_mean": 0.5931345639926101,
+      "addr_tok_jac_mean": 0.59202781779105,
+      "num_overlap_mean": 1.062581431027438
+    },
+    {
+      "addr_type": "subtoken",
+      "q_country": "India",
+      "n": 72129,
+      "name_tok_jac_mean": 0.5612006258317035,
+      "addr_tok_jac_mean": 0.8268794623393438,
+      "num_overlap_mean": 1.260255930347017
+    },
+    {
+      "addr_type": "subtoken",
+      "q_country": "US",
+      "n": 36288,
+      "name_tok_jac_mean": 0.7141626289030389,
+      "addr_tok_jac_mean": 0.7596032386252294,
+      "num_overlap_mean": 0.6579585537918872
+    },
+    {
+      "addr_type": "case",
+      "q_country": "US",
+      "n": 31875,
+      "name_tok_jac_mean": 0.7124446583481877,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.171764705882353
+    },
+    {
+      "addr_type": "missing",
+      "q_country": "US",
+      "n": 28034,
+      "name_tok_jac_mean": 0.7713742607023979,
+      "addr_tok_jac_mean": 0.0,
+      "num_overlap_mean": 0.0
+    },
+    {
+      "addr_type": "order",
+      "q_country": "US",
+      "n": 22600,
+      "name_tok_jac_mean": 0.6476965179608984,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.0535398230088495
+    },
+    {
+      "addr_type": "order",
+      "q_country": "India",
+      "n": 20367,
+      "name_tok_jac_mean": 0.47204857881135687,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.447684980605882
+    },
+    {
+      "addr_type": "case",
+      "q_country": "India",
+      "n": 18196,
+      "name_tok_jac_mean": 0.531729679573986,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.5443504066827873
+    },
+    {
+      "addr_type": "missing",
+      "q_country": "India",
+      "n": 15869,
+      "name_tok_jac_mean": 0.7701747568358571,
+      "addr_tok_jac_mean": 0.0,
+      "num_overlap_mean": 0.08702501732938434
+    },
+    {
+      "addr_type": "exact",
+      "q_country": "US",
+      "n": 13594,
+      "name_tok_jac_mean": 0.4752688941761326,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.272399588053553
+    },
+    {
+      "addr_type": "exact",
+      "q_country": "India",
+      "n": 8442,
+      "name_tok_jac_mean": 0.35380080118886087,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.631248519308221
+    },
+    {
+      "addr_type": "abbr",
+      "q_country": "US",
+      "n": 6832,
+      "name_tok_jac_mean": 0.7074245613545965,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 0.3689988290398126
+    },
+    {
+      "addr_type": "abbr",
+      "q_country": "India",
+      "n": 3357,
+      "name_tok_jac_mean": 0.5693405265009376,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 0.7336907953529938
+    }
+  ],
+  "name_type_by_msrc": [
+    {
+      "name_type": "heavy",
+      "msrc": "S2",
+      "n": 186904,
+      "name_tok_jac_mean": 0.3008390088341593,
+      "addr_tok_jac_mean": 0.6884756897511598,
+      "num_overlap_mean": 0.9180595385866541
+    },
+    {
+      "name_type": "heavy",
+      "msrc": "S3",
+      "n": 182077,
+      "name_tok_jac_mean": 0.3317151587178633,
+      "addr_tok_jac_mean": 0.5186659446428835,
+      "num_overlap_mean": 0.9258116071771832
+    },
+    {
+      "name_type": "subtoken",
+      "msrc": "S3",
+      "n": 146777,
+      "name_tok_jac_mean": 0.6576712728871466,
+      "addr_tok_jac_mean": 0.5754512918440183,
+      "num_overlap_mean": 0.9505712747910094
+    },
+    {
+      "name_type": "subtoken",
+      "msrc": "S2",
+      "n": 122865,
+      "name_tok_jac_mean": 0.6958266164597391,
+      "addr_tok_jac_mean": 0.6726066651958186,
+      "num_overlap_mean": 0.838847515565865
+    },
+    {
+      "name_type": "punct",
+      "msrc": "S3",
+      "n": 80844,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.4788961452830152,
+      "num_overlap_mean": 0.8557592400178121
+    },
+    {
+      "name_type": "punct",
+      "msrc": "S2",
+      "n": 68541,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.673885244382367,
+      "num_overlap_mean": 0.8395850658729811
+    },
+    {
+      "name_type": "order",
+      "msrc": "S3",
+      "n": 35763,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.4958833158054494,
+      "num_overlap_mean": 0.8844056706652127
+    },
+    {
+      "name_type": "order",
+      "msrc": "S2",
+      "n": 34332,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.6796010113252102,
+      "num_overlap_mean": 0.8680531282768262
+    },
+    {
+      "name_type": "case",
+      "msrc": "S2",
+      "n": 30381,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.664943980919882,
+      "num_overlap_mean": 0.8008623810934465
+    },
+    {
+      "name_type": "case",
+      "msrc": "S3",
+      "n": 30225,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.4717565164165943,
+      "num_overlap_mean": 0.8443672456575683
+    },
+    {
+      "name_type": "exact",
+      "msrc": "S3",
+      "n": 23172,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.4709377150052829,
+      "num_overlap_mean": 0.8371310201967892
+    },
+    {
+      "name_type": "exact",
+      "msrc": "S2",
+      "n": 22721,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.6675155616232185,
+      "num_overlap_mean": 0.8053342722591436
+    },
+    {
+      "name_type": "suffix",
+      "msrc": "S2",
+      "n": 14501,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.7314640544544216,
+      "num_overlap_mean": 1.1056478863526653
+    },
+    {
+      "name_type": "suffix",
+      "msrc": "S3",
+      "n": 13660,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.5273556452217464,
+      "num_overlap_mean": 0.9575402635431918
+    }
+  ],
+  "addr_type_by_msrc": [
+    {
+      "addr_type": "heavy",
+      "msrc": "S3",
+      "n": 442696,
+      "name_tok_jac_mean": 0.6784998634661411,
+      "addr_tok_jac_mean": 0.5031194143181725,
+      "num_overlap_mean": 0.9059286734011601
+    },
+    {
+      "addr_type": "heavy",
+      "msrc": "S2",
+      "n": 272484,
+      "name_tok_jac_mean": 0.6582061206903942,
+      "addr_tok_jac_mean": 0.5847746136124142,
+      "num_overlap_mean": 0.7910886510767605
+    },
+    {
+      "addr_type": "subtoken",
+      "msrc": "S2",
+      "n": 93850,
+      "name_tok_jac_mean": 0.6123349951416153,
+      "addr_tok_jac_mean": 0.799190487912881,
+      "num_overlap_mean": 1.0146403835908364
+    },
+    {
+      "addr_type": "case",
+      "msrc": "S2",
+      "n": 50030,
+      "name_tok_jac_mean": 0.6467451542616519,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.3071557065760544
+    },
+    {
+      "addr_type": "order",
+      "msrc": "S2",
+      "n": 32254,
+      "name_tok_jac_mean": 0.6115856203406901,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.2040057047187946
+    },
+    {
+      "addr_type": "missing",
+      "msrc": "S3",
+      "n": 22461,
+      "name_tok_jac_mean": 0.7699201817974305,
+      "addr_tok_jac_mean": 0.0,
+      "num_overlap_mean": 0.03152130359289435
+    },
+    {
+      "addr_type": "exact",
+      "msrc": "S3",
+      "n": 22036,
+      "name_tok_jac_mean": 0.4287344214497508,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.4098747504084226
+    },
+    {
+      "addr_type": "missing",
+      "msrc": "S2",
+      "n": 21442,
+      "name_tok_jac_mean": 0.7720097023321951,
+      "addr_tok_jac_mean": 0.0,
+      "num_overlap_mean": 0.03138699748157821
+    },
+    {
+      "addr_type": "subtoken",
+      "msrc": "S3",
+      "n": 14567,
+      "name_tok_jac_mean": 0.6128052532579872,
+      "addr_tok_jac_mean": 0.8376771999505568,
+      "num_overlap_mean": 1.3422804970137983
+    },
+    {
+      "addr_type": "order",
+      "msrc": "S3",
+      "n": 10713,
+      "name_tok_jac_mean": 0.42248409522061325,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.3498553159712499
+    },
+    {
+      "addr_type": "abbr",
+      "msrc": "S2",
+      "n": 10185,
+      "name_tok_jac_mean": 0.6619833824878001,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 0.488659793814433
+    },
+    {
+      "addr_type": "case",
+      "msrc": "S3",
+      "n": 41,
+      "name_tok_jac_mean": 0.6796747967479675,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.3170731707317074
+    },
+    {
+      "addr_type": "abbr",
+      "msrc": "S3",
+      "n": 4,
+      "name_tok_jac_mean": 0.525,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.75
+    }
+  ],
+  "name_x_addr": [
+    {
+      "name_type": "heavy",
+      "addr_type": "heavy",
+      "n": 267691,
+      "name_tok_jac_mean": 0.3255004957232004,
+      "addr_tok_jac_mean": 0.5370084155951944,
+      "num_overlap_mean": 0.8807953946901464
+    },
+    {
+      "name_type": "subtoken",
+      "addr_type": "heavy",
+      "n": 179866,
+      "name_tok_jac_mean": 0.6947575358689744,
+      "addr_tok_jac_mean": 0.5340350412400263,
+      "num_overlap_mean": 0.8473196713108647
+    },
+    {
+      "name_type": "punct",
+      "addr_type": "heavy",
+      "n": 113755,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.5293378502216306,
+      "num_overlap_mean": 0.8500461518175025
+    },
+    {
+      "name_type": "order",
+      "addr_type": "heavy",
+      "n": 53310,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.5294715814393166,
+      "num_overlap_mean": 0.8547552054023635
+    },
+    {
+      "name_type": "heavy",
+      "addr_type": "subtoken",
+      "n": 47200,
+      "name_tok_jac_mean": 0.26862214621536656,
+      "addr_tok_jac_mean": 0.784844909764871,
+      "num_overlap_mean": 1.0715677966101695
+    },
+    {
+      "name_type": "case",
+      "addr_type": "heavy",
+      "n": 46047,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.5249509591390569,
+      "num_overlap_mean": 0.8230286446456881
+    },
+    {
+      "name_type": "exact",
+      "addr_type": "heavy",
+      "n": 35106,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.5225283112086443,
+      "num_overlap_mean": 0.8184640802142084
+    },
+    {
+      "name_type": "subtoken",
+      "addr_type": "subtoken",
+      "n": 24791,
+      "name_tok_jac_mean": 0.6974066442210124,
+      "addr_tok_jac_mean": 0.8228423804848163,
+      "num_overlap_mean": 1.0403775563712638
+    },
+    {
+      "name_type": "heavy",
+      "addr_type": "case",
+      "n": 19640,
+      "name_tok_jac_mean": 0.29507809965549275,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.3565173116089613
+    },
+    {
+      "name_type": "suffix",
+      "addr_type": "heavy",
+      "n": 19405,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.5826518259473794,
+      "num_overlap_mean": 1.0064416387528987
+    },
+    {
+      "name_type": "subtoken",
+      "addr_type": "exact",
+      "n": 18779,
+      "name_tok_jac_mean": 0.4992624975358348,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.389584109910006
+    },
+    {
+      "name_type": "subtoken",
+      "addr_type": "order",
+      "n": 16598,
+      "name_tok_jac_mean": 0.5903741292914687,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.2517170743463069
+    },
+    {
+      "name_type": "heavy",
+      "addr_type": "order",
+      "n": 15603,
+      "name_tok_jac_mean": 0.23630871707924198,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.2678971992565533
+    },
+    {
+      "name_type": "punct",
+      "addr_type": "subtoken",
+      "n": 14413,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.8204274857773856,
+      "num_overlap_mean": 1.0455144661069868
+    },
+    {
+      "name_type": "subtoken",
+      "addr_type": "missing",
+      "n": 14336,
+      "name_tok_jac_mean": 0.6964970249167376,
+      "addr_tok_jac_mean": 0.0,
+      "num_overlap_mean": 0.029087611607142856
+    },
+    {
+      "name_type": "subtoken",
+      "addr_type": "case",
+      "n": 12583,
+      "name_tok_jac_mean": 0.6946827352096365,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.2649606612095685
+    },
+    {
+      "name_type": "heavy",
+      "addr_type": "missing",
+      "n": 11771,
+      "name_tok_jac_mean": 0.5153026838461381,
+      "addr_tok_jac_mean": 0.0,
+      "num_overlap_mean": 0.03313227423328519
+    },
+    {
+      "name_type": "punct",
+      "addr_type": "missing",
+      "n": 8352,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.0,
+      "num_overlap_mean": 0.029454022988505746
+    },
+    {
+      "name_type": "order",
+      "addr_type": "subtoken",
+      "n": 7670,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.7901182447767173,
+      "num_overlap_mean": 1.0202086049543677
+    },
+    {
+      "name_type": "punct",
+      "addr_type": "case",
+      "n": 7093,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.2691385873396306
+    },
+    {
+      "name_type": "case",
+      "addr_type": "subtoken",
+      "n": 5554,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.8129432800760455,
+      "num_overlap_mean": 0.9864962189413036
+    },
+    {
+      "name_type": "suffix",
+      "addr_type": "subtoken",
+      "n": 4547,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.8621683934162556,
+      "num_overlap_mean": 1.3072355399164284
+    },
+    {
+      "name_type": "punct",
+      "addr_type": "order",
+      "n": 4283,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.168106467429372
+    },
+    {
+      "name_type": "exact",
+      "addr_type": "subtoken",
+      "n": 4242,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.811483006707429,
+      "num_overlap_mean": 0.9641678453559641
+    },
+    {
+      "name_type": "heavy",
+      "addr_type": "abbr",
+      "n": 3842,
+      "name_tok_jac_mean": 0.31654570738706606,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 0.5309734513274337
+    },
+    {
+      "name_type": "order",
+      "addr_type": "case",
+      "n": 3721,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.2937382424079549
+    },
+    {
+      "name_type": "case",
+      "addr_type": "case",
+      "n": 3251,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.2353122116271917
+    },
+    {
+      "name_type": "heavy",
+      "addr_type": "exact",
+      "n": 3234,
+      "name_tok_jac_mean": 0.015133354929273297,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.528756957328386
+    },
+    {
+      "name_type": "case",
+      "addr_type": "missing",
+      "n": 3232,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.0,
+      "num_overlap_mean": 0.021658415841584157
+    },
+    {
+      "name_type": "subtoken",
+      "addr_type": "abbr",
+      "n": 2689,
+      "name_tok_jac_mean": 0.6955121394039208,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 0.44105615470435106
+    },
+    {
+      "name_type": "exact",
+      "addr_type": "case",
+      "n": 2457,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.2523402523402523
+    },
+    {
+      "name_type": "order",
+      "addr_type": "order",
+      "n": 2341,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.2007689021785561
+    },
+    {
+      "name_type": "order",
+      "addr_type": "missing",
+      "n": 2335,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.0,
+      "num_overlap_mean": 0.02955032119914347
+    },
+    {
+      "name_type": "exact",
+      "addr_type": "missing",
+      "n": 2252,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.0,
+      "num_overlap_mean": 0.02975133214920071
+    },
+    {
+      "name_type": "case",
+      "addr_type": "order",
+      "n": 1826,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.1308871851040525
+    },
+    {
+      "name_type": "suffix",
+      "addr_type": "missing",
+      "n": 1625,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 0.0,
+      "num_overlap_mean": 0.07507692307692308
+    },
+    {
+      "name_type": "punct",
+      "addr_type": "abbr",
+      "n": 1476,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 0.47289972899729
+    },
+    {
+      "name_type": "exact",
+      "addr_type": "order",
+      "n": 1345,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.1345724907063197
+    },
+    {
+      "name_type": "suffix",
+      "addr_type": "case",
+      "n": 1326,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.495475113122172
+    },
+    {
+      "name_type": "suffix",
+      "addr_type": "order",
+      "n": 971,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.3707518022657055
+    },
+    {
+      "name_type": "order",
+      "addr_type": "abbr",
+      "n": 716,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 0.4762569832402235
+    },
+    {
+      "name_type": "case",
+      "addr_type": "abbr",
+      "n": 694,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 0.4610951008645533
+    },
+    {
+      "name_type": "exact",
+      "addr_type": "abbr",
+      "n": 489,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 0.40899795501022496
+    },
+    {
+      "name_type": "suffix",
+      "addr_type": "abbr",
+      "n": 283,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 0.7031802120141343
+    },
+    {
+      "name_type": "punct",
+      "addr_type": "exact",
+      "n": 13,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.0769230769230769
+    },
+    {
+      "name_type": "suffix",
+      "addr_type": "exact",
+      "n": 4,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.0
+    },
+    {
+      "name_type": "order",
+      "addr_type": "exact",
+      "n": 2,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 2.0
+    },
+    {
+      "name_type": "exact",
+      "addr_type": "exact",
+      "n": 2,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 1.5
+    },
+    {
+      "name_type": "case",
+      "addr_type": "exact",
+      "n": 2,
+      "name_tok_jac_mean": 1.0,
+      "addr_tok_jac_mean": 1.0,
+      "num_overlap_mean": 2.0
+    }
+  ],
+  "both_exact": 2,
+  "name_exact_addr_diff": 40693,
+  "addr_exact_name_diff": 22015
+}
