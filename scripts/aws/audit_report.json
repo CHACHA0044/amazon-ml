@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-09-25T04:55:36.614Z",
+  "s3_bucket": "sagemaker-us-east-1-974387521486",
+  "s3_prefix": "amazon-ml-challenge",
+  "region": "us-east-1",
+  "summary": {
+    "total_local_files": 9,
+    "total_s3_objects": 11,
+    "matching_files": 9,
+    "missing_from_s3": 0,
+    "missing_locally": 2,
+    "size_mismatches": 0
+  },
+  "missing_from_s3": [],
+  "missing_locally": [
+    {
+      "s3_key": "code/sagemaker_entrypoint.py",
+      "size_bytes": 24382
+    },
+    {
+      "s3_key": "experiments/EXP003-AWS/s3_manifest.json",
+      "size_bytes": 3663
+    }
+  ],
+  "mismatches": []
+}

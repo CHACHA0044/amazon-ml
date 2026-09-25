@@ -20,13 +20,20 @@ from typing import Dict, List, Optional, Set, Tuple
 
 # Step 1: Install required packages inside SageMaker container if missing
 def ensure_packages():
-    required = ["polars", "lightgbm", "pyarrow", "joblib", "numpy"]
+    required_packages = {
+        "polars": "polars",
+        "lightgbm": "lightgbm",
+        "pyarrow": "pyarrow",
+        "joblib": "joblib",
+        "numpy": "numpy",
+        "sklearn": "scikit-learn",
+    }
     missing = []
-    for pkg in required:
+    for mod_name, pip_name in required_packages.items():
         try:
-            __import__(pkg)
+            __import__(mod_name)
         except ImportError:
-            missing.append(pkg)
+            missing.append(pip_name)
     if missing:
         print(f"Installing missing packages: {missing}...", flush=True)
         subprocess.check_call([sys.executable, "-m", "pip", "install", "-q"] + missing)

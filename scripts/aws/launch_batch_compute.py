@@ -19,7 +19,7 @@ from aws_config import REGION, BUCKET, S3_PREFIX, REPO_ROOT, require_config
 
 require_config("BUCKET")
 
-INSTANCE_TYPE = "m5.2xlarge"
+INSTANCE_TYPE = "r5.2xlarge"
 AMI_ID = "ami-05a3e9423ae4d7a19"  # Ubuntu 22.04 LTS us-east-1
 INSTANCE_PROFILE_NAME = "AmazonML-EC2-S3-Profile"
 VOLUME_SIZE_GB = 40
@@ -58,6 +58,10 @@ date -u
 echo "=========================================================="
 
 export DEBIAN_FRONTEND=noninteractive
+fallocate -l 16G /swapfile || dd if=/dev/zero of=/swapfile bs=1M count=16384
+chmod 600 /swapfile
+mkswap /swapfile
+swapon /swapfile
 apt-get update -y
 apt-get install -y python3-pip python3-venv awscli jq
 
@@ -69,7 +73,7 @@ cd /opt/amazonml
 python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
-pip install -q polars lightgbm pyarrow joblib numpy boto3
+pip install -q polars lightgbm pyarrow joblib numpy boto3 scikit-learn
 
 echo "Downloading artifacts from S3..."
 aws s3 cp s3://{BUCKET}/{S3_PREFIX}/models/lgbm_matcher.joblib /opt/amazonml/models/lgbm_matcher.joblib

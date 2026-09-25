@@ -96,7 +96,6 @@ submission/*.zip
 submissions/
 
 # Personal operating / reference files - local only
-instructions.md
 device-specs.md
 aws buiilder center guide.txt
 problem_statement.txt

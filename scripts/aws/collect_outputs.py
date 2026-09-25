@@ -229,10 +229,10 @@ EXP-003 Calibrated Hybrid LightGBM Matcher:
 - Disjoint Star Cluster Post-Processing (anchor threshold = 0.85, max matches = 11)
 
 ## Runtime & Performance
-- **Runtime**: {summary.get('runtime_seconds', 'N/A')} seconds ({summary.get('runtime_seconds', 0)/60:.1f} minutes)
-- **Total S1 Queries Processed**: {summary.get('total_s1_queries', 1732544):,}
-- **S1 with Matches**: {summary.get('s1_with_matches', 'N/A'):,}
-- **Total Matched Pairs**: {summary.get('total_matched_pairs', 'N/A'):,}
+- **Runtime**: {summary.get('runtime_seconds', 'N/A')} seconds
+- **Total S1 Queries Processed**: {summary.get('total_s1_queries', 1732544)}
+- **S1 with Matches**: {summary.get('s1_with_matches', 'N/A')}
+- **Total Matched Pairs**: {summary.get('total_matched_pairs', 'N/A')}
 
 ## Validation Results
 - **Official Validator Status**: PASS
